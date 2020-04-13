@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.buttons__container, 
+.inputs__container, 
+.text__container,
+.styled__text__container,
+.links__container,
+.table__container {
+    text-align: center;
+    border-bottom: 1px solid navy;
+    padding: 50px 0;
+}
+
+.section__header {
+    padding-bottom: 35px;
+}
+
+.small__container {
+    border: 3px solid grey;
+    margin: 0 auto;
+    padding: 10px;
+    width: 38vw;
+}
+
+.small__container__p1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: lightgray;
+}
+.small__container__p2 {
+    text-align: center;
+    line-height: 1;
+    font-size: 1.3rem;
+}
+
+.small__container__p3 {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+.html__button{
+    display: block;
+    margin: 20px auto;
+    color: pink;
+    background: black;
+    border: 2px solid palevioletred;
+    box-shadow: 0px 0px 20px rgb(202, 76, 97);
+    padding: 0.5rem 1rem;
+}
+
+.html__button:hover {
+    background: pink;
+    border: 1px solid black;
+    color:black;
+}
+
+.html__button__div { 
+    background: rgb(93, 93, 233);
+    color: rgb(252, 135, 154);
+    width: 150px;
+    padding: 1rem 0;
+    border-radius: 50px;
+    text-shadow: 0px 0px 5px rgb(102, 82, 82);
+    font-weight: 800;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.links__container img {
+    width: 30px;
+    text-decoration:underline;
+}
+
+.table__container table, td {
+    border: 1px solid #333;
+    margin: 0 auto;
+    width: 30vw;
+}
+
+thead, tfoot {
+    background-color: #333;
+    color: #fff;
+}
