@@ -1,0 +1,29 @@
+@import './variables';
+@mixin flexCenter($direction, $background) {
+    align-items: center;
+    background: $background ;
+    display: flex;
+    justify-content: center;
+    flex-direction: $direction;
+}
+
+@mixin button {
+    background: $primaryButton;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: .8rem 1.2rem;
+    &:hover {
+        background: rgb(49, 34, 54);
+    }
+}
+
+header {
+    @include flexCenter(column, rgb(210, 186, 255));
+    color: $textColor;
+    height: 100vh;
+    button {
+        @include button;
+    }
+}
